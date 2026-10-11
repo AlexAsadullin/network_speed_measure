@@ -1,0 +1,6 @@
+[project]
+name = "netspeed"
+version = "0.1.0"
+description = "Measure download speed by fetching one file several times"
+requires-python = ">=3.12"
+dependencies = []
