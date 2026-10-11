@@ -8,6 +8,8 @@
 git clone https://github.com/AlexAsadullin/network-speed-measure.git
 cd network-speed-measure
 uv venv
+source .venv/bin/activate
+uv sync
 ```
 
 Запуск с адресом по умолчанию
@@ -22,7 +24,7 @@ uv run speedtest.py
 uv run speedtest.py https://esahubble.org/media/archives/images/large/heic0506a.jpg
 ```
 
-Запуск без uv
+без uv
 
 ```
 python3 speedtest.py
@@ -42,4 +44,6 @@ Downloaded 82.29 MB
 Speed 6.39 MB/s
 ```
 
-Зависимостей нет, нужен только Python 3.12 или новее, uv по желанию
+Требования:
+Python 3.12 или новее
+uv
